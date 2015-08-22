@@ -1,5 +1,65 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+
+
+.innerWrapper {
+	background-image: url('../images/bank3.jpg');
+    background-repeat: no-repeat;
+  
 }
+
+.mainContainer {
+	background: url('../images/bank3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding-top: 20px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.innerJ {
+  color:#ffffff;
+  text-align: center;
+  font-size: 8px;
+}
+
+.innerHeader {
+ margin-bottom: 60px;
+}
+
+.spacer {
+ height: 560px;
+}
+
+.btnWrapper {
+  margin: auto;
+    width: 100%;
+
+}
+
+div.panel  { 
+	position:relative; 
+}
+
+div.panel a { 
+
+	position:absolute; 
+	width:100%; 
+	height:100%; 
+	top:0; 
+	left:0; 
+	text-decoration:none; 
+
+	}

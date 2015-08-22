@@ -4541,8 +4541,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+ 
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -5004,11 +5003,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background: rgba(56, 45, 51, .3);
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5031,8 +5030,8 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -5500,6 +5499,7 @@ button.list-group-item-danger.active:focus {
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          width:90%;
 }
 .panel-body {
   padding: 15px;
@@ -5730,6 +5730,18 @@ button.list-group-item-danger.active:focus {
 }
 .panel-default {
   border-color: #ddd;
+   background: rgba(56, 45, 51, 0);
+  color: #ffffff;
+}
+
+.panel-default:hover
+ {
+  background-color: #e16399;
+}
+.panel-bank{
+  border-color: #ddd;
+   background-color: #e16399;
+  color: #ffffff;
 }
 .panel-default > .panel-heading {
   color: #333;
