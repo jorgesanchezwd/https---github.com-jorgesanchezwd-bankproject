@@ -1,65 +1,86 @@
-
-
 .innerWrapper {
-	background-image: url('../images/bank3.jpg');
+    background-image: url('../images/bank3.jpg');
     background-repeat: no-repeat;
-  
 }
-
 .mainContainer {
-	background: url('../images/bank3.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url('../images/bank3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding-top: 20px;
 }
-
 .theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
+    position: static;
+    display: block;
+    margin-bottom: 20px;
 }
-
 .theme-showcase > p > .btn {
-  margin: 5px 0;
+    margin: 5px 0;
 }
-
 .theme-showcase .navbar .container {
-  width: auto;
+    width: auto;
 }
-
 .innerJ {
-  color:#ffffff;
-  text-align: center;
-  font-size: 8px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 8px;
 }
-
 .innerHeader {
- margin-bottom: 60px;
+    margin-bottom: 60px;
 }
-
 .spacer {
- height: 560px;
+    height: 560px;
 }
-
 .btnWrapper {
-  margin: auto;
+    margin: auto;
     width: 100%;
-
 }
-
-div.panel  { 
-	position:relative; 
+div.panel {
+    position: relative;
 }
-
-div.panel a { 
-
-	position:absolute; 
-	width:100%; 
-	height:100%; 
-	top:0; 
-	left:0; 
-	text-decoration:none; 
-
-	}
+div.panel a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+.panelWrapper {
+    margin-top: 20px;
+}
+.panelLeft {
+    float: left;
+    left: 0;
+    right: auto;
+}
+.panelRight {
+    float: right;
+    right: 0;
+    left: auto;
+}
+.chatWindowWrapper {
+    background-color: #f0f8ff;
+    padding: 20px;
+}
+#circleAgent {
+    float: left;
+    width: 125px;
+    height: 125px;
+    -webkit-clip-path: circle(24.3% at 50% 20%);
+    clip-path: circle(24.3% at 50% 20%);
+}
+#circleUser {
+    float: right;
+    width: 125px;
+    height: 125px;
+    -webkit-clip-path: circle(24.3% at 50% 20%);
+    clip-path: circle(24.3% at 50% 20%);
+}
+.chatText {
+    text-align: left;
+}
+.chatTime {
+    text-align: right;
+}
