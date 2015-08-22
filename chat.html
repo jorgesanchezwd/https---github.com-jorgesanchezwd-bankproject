@@ -217,6 +217,14 @@
         document.getElementById('chatform').onkeyup = function() {
             document.getElementById('myDiv').innerHTML = document.getElementById('chatform').value;
         }
+
+        javascript: (function() {
+                var s = document.createElement("script");
+                s.onload = function() {
+                    bootlint.showLintReportForCurrentDocument([]);
+                };
+                s.src = "https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";
+                doc
     </script>
 
 </body>
